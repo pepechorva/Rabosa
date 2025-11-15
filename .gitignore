@@ -1,0 +1,83 @@
+# ----------------------------------------
+# GLOBAL GIT IGNORE 
+# ----------------------------------------
+
+# 1. REGLA PRINCIPAL: EXCLUIR TODO
+# ----------------------------------------
+*
+!*/  # Excepción: Permite que Git vea los directorios para poder aplicar las inclusiones.
+
+# 2. EXCEPCIONES: ARCHIVOS Y CARPETAS ESENCIALES
+# ----------------------------------------
+
+# CONFIGURACIÓN ROOT
+# Incluye el archivo de enlaces y el README, si existe.
+!.gitignore
+!links.txt
+!README.md
+
+# CARPETA DE IMÁGENES
+!images/
+!images/*
+
+# DOCUMENTACIÓN
+!Docs/
+!Docs/Datasheets/
+!Docs/Datasheets/*.pdf
+
+# FIRMWARE (STM32)
+# Incluye el directorio de código fuente y sus subdirectorios
+!Firmware/
+!Firmware/*
+
+# HARDWARE (KICAD)
+# Incluye los directorios de KiCAD y sus archivos fuente
+!Hardware/
+!Hardware/KiCAD/
+!Hardware/KiCAD/Rabosa/
+# Archivos de proyecto (son los esenciales)
+!Hardware/KiCAD/Rabosa/*.kicad_sch
+!Hardware/KiCAD/Rabosa/*.kicad_pcb
+!Hardware/KiCAD/Rabosa/*.kicad_pro
+!Hardware/KiCAD/Rabosa/*.kicad_dru
+
+# Si tienes componentes custom que solo aplican a este proyecto:
+!Hardware/Custom_Libs/
+!Hardware/Custom_Libs/*
+
+# MECÁNICA (FREECAD)
+# Incluye los archivos fuente de FreeCAD y los STEPs exportados
+!Mechanical/
+!Mechanical/FreeCAD/
+!Mechanical/STEP_Exports/
+!Mechanical/FreeCAD/*.FCStd
+!Mechanical/STEP_Exports/*.step
+
+# 3. REGLAS DE "LISTA NEGRA" ESPECÍFICAS (PARA LIMPIAR LAS EXCEPCIONES)
+# ----------------------------------------
+# A pesar de que incluimos directorios, debemos ignorar backups y temporales
+# dentro de esos directorios, si el patrón es común.
+
+# General / Temporales
+*.log
+*.zip
+*.csv
+*.dxf
+*.3mf
+
+# FreeCAD (Ignorar backups dentro de la carpeta fuente)
+/Mechanical/FreeCAD/*.FCBak
+
+# KiCAD (Ignorar temporales y backups específicos)
+/Hardware/KiCAD/Rabosa/*-backups/
+/Hardware/KiCAD/Rabosa/backups/
+/Hardware/KiCAD/Rabosa/*.kicad_prl
+/Hardware/KiCAD/Rabosa/*.kicad_sch-bak
+/Hardware/KiCAD/Rabosa/*.kicad_pcb-bak
+/Hardware/KiCAD/Rabosa/fp-info-cache
+
+
+
+
+
+
