@@ -15,6 +15,7 @@
 !.gitignore
 !links.txt
 !README.md
+!LICENSE
 
 # CARPETA DE IMÁGENES
 !images/
@@ -29,12 +30,15 @@
 # Incluye el directorio de código fuente y sus subdirectorios
 !Firmware/
 !Firmware/*
+!Firmware/LICENSE.txt
 
 # HARDWARE (KICAD)
 # Incluye los directorios de KiCAD y sus archivos fuente
 !Hardware/
+!Hardware/LICENSE.txt
 !Hardware/KiCAD/
 !Hardware/KiCAD/Rabosa/
+
 # Archivos de proyecto (son los esenciales)
 !Hardware/KiCAD/Rabosa/*.kicad_sch
 !Hardware/KiCAD/Rabosa/*.kicad_pcb

@@ -1,0 +1,29 @@
+# Licencias del Proyecto Rabosa
+
+Este proyecto contiene diferentes tipos de propiedad intelectual (firmware y hardware) y, por lo tanto, está licenciado bajo múltiples licencias.
+
+## 1. FIRMWARE (Código Fuente)
+
+Los archivos contenidos en el directorio `/Firmware` (archivos .c, .h, makefiles, etc.) y sus subdirectorios son software y están licenciados bajo la:
+
+**GNU General Public License, Versión 3 (GPLv3)**
+
+Puede encontrar una copia del texto completo de esta licencia en el archivo:
+`/Firmware/LICENSE`
+
+## 2. HARDWARE y Diseños 3D
+
+Los archivos contenidos en los directorios `/Hardware`, `/Mechanical`, y `/Docs` (archivos KiCAD, diseños FreeCAD, archivos STEP, etc.) son diseños de hardware y documentación, y están licenciados bajo la:
+
+**CERN Open Hardware Licence, Versión 2 - Weak (CERN-OHL-W)**
+
+Puede encontrar una copia del texto completo de esta licencia en el archivo:
+`/Hardware/LICENSE`
+
+---
+
+## Contacto y Atribución
+
+Copyright (C) 2025 Pepe Chorva Aguilella
+
+Para cualquier pregunta sobre la licencia, contacte a: pepe@pepechorva.com
