@@ -18,8 +18,8 @@
 !LICENSE
 
 # CARPETA DE IMÁGENES
-!images/
-!images/*
+!Images/
+!Images/*
 
 # DOCUMENTACIÓN
 !Docs/
