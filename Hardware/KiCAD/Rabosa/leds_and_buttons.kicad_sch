@@ -1,0 +1,278 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "dc4ca860-c5c1-4372-a65f-341aa021b958")
+	(paper "A3")
+	(title_block
+		(title "Rabosa_Bot")
+		(rev "1.0")
+		(company "XorvaLabs")
+	)
+	(lib_symbols)
+	(sheet
+		(at 236.22 162.56)
+		(size 13.97 5.715)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "054391f2-da28-4378-afdb-45826e4f0b90")
+		(property "Sheetname" "Pullup_button"
+			(at 236.22 161.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pullup_button.kicad_sch"
+			(at 236.22 168.8596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Button" output
+			(at 250.19 165.735 0)
+			(uuid "215e29d8-ba42-4397-bdb4-ec4b24c81ef2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/95cbebb1-3ddc-408b-bf64-7d7b83919d5d"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.2765 138.43)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "10fd2e02-9d26-490c-98c7-929ed2e55b31")
+		(property "Sheetname" "PWM LED"
+			(at 236.2765 137.7184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pwm_led.kicad_sch"
+			(at 236.2765 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "PWM_LED" input
+			(at 236.2765 140.97 180)
+			(uuid "9d2a46bb-d95b-461f-b091-6b47b8230374")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/95cbebb1-3ddc-408b-bf64-7d7b83919d5d"
+					(page "14")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 150.495)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "331052ee-8509-4922-853d-670f8345d401")
+		(property "Sheetname" "Digital LED"
+			(at 236.22 149.7834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "digital_led.kicad_sch"
+			(at 236.22 157.4296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED" input
+			(at 236.22 153.67 180)
+			(uuid "369bfc94-f247-4f5a-82ed-ddb5738fb2de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/95cbebb1-3ddc-408b-bf64-7d7b83919d5d"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 189.865)
+		(size 17.145 8.255)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd65c54a-f437-42dd-a237-8c89c075c9af")
+		(property "Sheetname" "FAN MOTOR LED"
+			(at 236.22 189.1534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "plugable_led.kicad_sch"
+			(at 236.22 198.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LED" input
+			(at 236.22 194.31 180)
+			(uuid "61387d21-7ba9-4443-aef3-fe21a1c414dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/95cbebb1-3ddc-408b-bf64-7d7b83919d5d"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 236.22 173.99)
+		(size 17.78 4.445)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d47c1f5f-1546-4ea1-9d67-b7135a578c42")
+		(property "Sheetname" "Pulldown_button"
+			(at 236.22 173.2784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pulldown_button.kicad_sch"
+			(at 236.22 179.0196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "Button" output
+			(at 254 176.53 0)
+			(uuid "2535df35-0b8a-44fc-b585-2e35ad676c52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/95cbebb1-3ddc-408b-bf64-7d7b83919d5d"
+					(page "12")
+				)
+			)
+		)
+	)
+)

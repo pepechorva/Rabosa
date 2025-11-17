@@ -1,0 +1,97 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2a1d519c-d71f-4a1f-bd69-c1b0690c5daa")
+	(paper "A3")
+	(title_block
+		(title "Rabosa_Bot")
+		(rev "1.0")
+		(company "XorvaLabs")
+	)
+	(lib_symbols)
+	(sheet
+		(at 158.75 107.95)
+		(size 27.94 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5efa77d-83b1-49e1-9e3c-7eec14ad5646")
+		(property "Sheetname" "IR Receiver"
+			(at 158.75 107.2384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir_receiver.kicad_sch"
+			(at 158.75 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/146680dc-2b0a-423b-b625-b6c63df916e9"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 63.5)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c2379c75-2e51-4ec8-a361-23dc6b933a57")
+		(property "Sheetname" "IR Emitter"
+			(at 158.75 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir_emitter.kicad_sch"
+			(at 158.75 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/146680dc-2b0a-423b-b625-b6c63df916e9"
+					(page "3")
+				)
+			)
+		)
+	)
+)

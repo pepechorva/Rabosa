@@ -1,0 +1,172 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0463db6b-f295-46d3-837b-a27409affe0a")
+	(paper "A3")
+	(title_block
+		(title "Rabosa_Bot")
+		(rev "1.0")
+		(company "XorvaLabs")
+	)
+	(lib_symbols)
+	(sheet
+		(at 213.36 96.52)
+		(size 28.575 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f80c05c-acc3-4299-82f7-8f8855a29c0c")
+		(property "Sheetname" "IR LED EMITTER"
+			(at 213.36 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir_led_emitter.kicad_sch"
+			(at 213.36 129.4896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IR_LED_EMITTER" input
+			(at 213.36 111.125 180)
+			(uuid "020b9e41-825c-40ec-96b1-ae68785eec64")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/af160368-4642-4249-b204-185f75de2020"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 322.58 51.435)
+		(size 22.225 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b8598dd5-02b7-4c29-a5f5-e26b639f9043")
+		(property "Sheetname" "IR Receivers"
+			(at 322.58 50.7234 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir_receivers.kicad_sch"
+			(at 322.58 64.7196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IR_RECEIVER" output
+			(at 322.58 58.42 180)
+			(uuid "e5ae4969-72f1-4a87-9e91-e6f4dcac80fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/af160368-4642-4249-b204-185f75de2020"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 283.845 95.25)
+		(size 36.195 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d2d8dd50-6669-4d2e-b252-97c914f8ed2b")
+		(property "Sheetname" "IR DUAL LED EMITTER"
+			(at 283.845 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ir_dual_led_emitter.kicad_sch"
+			(at 283.845 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "IR_DUAL_EMITTER" input
+			(at 283.845 108.585 180)
+			(uuid "907138d8-da01-4374-a9bb-cb5762638886")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Rabosa"
+				(path "/13e49f49-407a-475a-af0d-9dd4b4e16751/af160368-4642-4249-b204-185f75de2020"
+					(page "17")
+				)
+			)
+		)
+	)
+)
