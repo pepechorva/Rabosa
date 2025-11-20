@@ -5,10 +5,12 @@
 # 1. REGLA PRINCIPAL: EXCLUIR TODO
 # ----------------------------------------
 *
-!*/  # Excepción: Permite que Git vea los directorios para poder aplicar las inclusiones.
 
 # 2. EXCEPCIONES: ARCHIVOS Y CARPETAS ESENCIALES
 # ----------------------------------------
+
+# Permite que Git vea los directorios para poder aplicar las inclusiones.
+!*/  
 
 # CONFIGURACIÓN ROOT
 # Incluye el archivo de enlaces y el README, si existe.
@@ -19,7 +21,8 @@
 
 # CARPETA DE IMÁGENES
 !Images/
-!Images/*
+!Images/*.png
+!Images/*.jpg
 
 # DOCUMENTACIÓN
 !Docs/
