@@ -16,6 +16,14 @@ El objetivo es diseñar una plataforma robusta y de alto rendimiento capaz de na
 
 **Actualmente en desarrollo.** La parte electrónica está diseñada y esperando revisiones finales. Queda trabajo pendiente en el diseño 3D y el firmware.
 
+## Clonar el Repositorio
+
+El repositorio está separado en 3 partes (submódulos) para gestionar las versiones de PCB, diseño 3D y Firmware por separado. Para clonar todo el repositorio, ejecuta el siguiente comando en tu terminal:
+
+git clone --recurse-submodules git@github.com:pepechorva/Rabosa.git
+
+
+
 ## 📸 Vistas Previas del Diseño
 
 Aquí puedes ver algunas imágenes del estado actual del diseño de la PCB y los componentes:
