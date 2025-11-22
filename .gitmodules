@@ -1,0 +1,6 @@
+[submodule "Mechanical"]
+	path = Mechanical
+	url = git@github.com:pepechorva/Rabosa-Mechanical
+[submodule "Firmware"]
+	path = Firmware
+	url = git@github.com:pepechorva/Rabosa-Firmware
