@@ -4,3 +4,6 @@
 [submodule "Firmware"]
 	path = Firmware
 	url = git@github.com:pepechorva/Rabosa-Firmware
+[submodule "Hardware"]
+	path = Hardware
+	url = git@github.com:pepechorva/Rabosa-Hardware
