@@ -31,12 +31,14 @@
 
 # FIRMWARE (STM32)
 # Incluye el directorio de código fuente y sus subdirectorios
-!Firmware/
+!Firmware
+!Fimware/
 !Firmware/*
 !Firmware/LICENSE.txt
 
 # HARDWARE (KICAD)
 # Incluye los directorios de KiCAD y sus archivos fuente
+!Hardware
 !Hardware/
 !Hardware/LICENSE.txt
 !Hardware/KiCAD/
@@ -54,6 +56,7 @@
 
 # MECÁNICA (FREECAD)
 # Incluye los archivos fuente de FreeCAD y los STEPs exportados
+!Mechanical
 !Mechanical/
 !Mechanical/FreeCAD/
 !Mechanical/STEP_Exports/
